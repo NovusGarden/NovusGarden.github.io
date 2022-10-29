@@ -2,7 +2,7 @@
 <html lang="en">
   <meta charset="UTF-8">
   <head>
-    <title>Ruffle Dynamic Player</title>
+    <title>CQC</title>
     <script>
       const configMap = {
         "autoplay": {true: "on", false: "off"},
@@ -11,10 +11,10 @@
       };
       const defaultConfig = {
         "warnOnUnsupportedContent": false,
-        "letterbox": "on",
+        "letterbox": "off",
         "showSwfDownload": true
       };
-      const defaultSWF = 'ruffled.swf';
+      const defaultSWF = '412252_cqc.swf';
       const urlParams = new URLSearchParams(window.location.search);
       const swfName = urlParams.get('swf') || defaultSWF;
       urlParams.delete('swf'); // Not part of Ruffle config object
